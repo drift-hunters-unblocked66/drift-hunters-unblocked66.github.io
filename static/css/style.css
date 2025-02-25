@@ -699,6 +699,16 @@ tbody, td, tfoot, th, thead, tr {
         font-size: 14px !important;
         line-height: 25px !important;
     }
+
+    .partners-container-box {
+        flex-direction: column;
+        padding-top: 10px;
+        margin-bottom: 20px;
+    }
+
+    .partners-container-box .partners-list .partners-content strong {
+        margin-bottom: 5px;
+    }
 }
 
 /* 确保iframe在所有设备上都能正常显示 */
